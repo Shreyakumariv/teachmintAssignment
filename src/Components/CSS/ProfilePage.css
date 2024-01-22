@@ -1,0 +1,270 @@
+
+*{
+  font-weight: bold;
+}
+.MainDivOfProfilePage {
+  padding: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.BackButton {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 90px;
+  height: 40px;
+  background: rgba(214, 245, 245, 0.953);
+}
+
+.Pause-Start {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  background: rgba(214, 245, 245, 0.953);
+}
+
+.Country {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+}
+
+.ColumnofProfilePage {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.ProfilePage {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.SecondDivofProfile {
+  margin-left: auto;
+}
+
+.DivofUserInfo {
+  display: flex;
+  gap: 5px;
+}
+
+.Line {
+  width: 3px;
+  color: black;
+  height: 20px;
+}
+
+.ParaOfCard {
+  text-align: center;
+}
+
+.MainDivOfUserinfo {
+  padding: 20px;
+}
+
+.MainDivofGrid {
+  padding: 20px;
+}
+
+.ShowOfRow {
+  gap: 10px;
+}
+
+.ShowOfPost {
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.DivOfpost {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  width: 30%;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.TitleOfPost {
+  text-align: center;
+}
+
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 50%;
+}
+
+/* Add a close button */
+.popup-content button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.popup-content button:hover {
+  background-color: #cc0000;
+}
+
+.ColumnofProfilePage {
+  cursor: pointer;
+}
+
+/* Add styles for the post */
+.post {
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.post:hover {
+  background-color: #f0f0f0;
+}
+
+.DivOfselect {
+  width: 170px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.PausePlay {
+  width: 90px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(122, 192, 122);
+}
+
+
+.digital-clock-container {
+  font-family: 'Digital-7', sans-serif;
+  background-color: #333;
+  color: #00ff00;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.digital-clock {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .post {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .ColumnofProfilePage {
+    flex-direction: column;
+    text-align: -webkit-center;
+  }
+
+  .SecondDivofProfile {
+    margin-left: 0px;
+    margin-top: 36px;
+  }
+
+  .DivofUserInfo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Line {
+    width: 0px;
+    color: black;
+    height: 0px;
+  }
+
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+.ColumnofProfilePage {
+  flex-direction: column;
+  text-align: -webkit-center;
+}
+
+.SecondDivofProfile {
+  margin-left: 0px;
+  margin-top: 36px;
+}
+
+.DivofUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Line {
+  width: 0px;
+  color: black;
+  height: 0px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+  .RowofClock {
+    gap: 15px;
+  }
+
+  .digital-clock-container {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 768px) {
+  .RowofClock {
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .DivOfselect {
+    width: 105px;
+  }
+  .PausePlay{
+    margin-left: auto;
+  }
+}
+
+
+.ClockDIGI {
+  display: flex;
+}

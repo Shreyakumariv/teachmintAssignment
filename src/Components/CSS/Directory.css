@@ -1,0 +1,42 @@
+*{
+    font-weight: bold;
+  }
+.textofheader{
+    text-align: center;
+    margin-bottom: 41px;
+}
+.DivOfContainer{
+    padding: 50px;
+ 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.MainDivofDirectory{
+display: flex;
+}
+.Divofdirectoryrow{
+    border: 1px solid rgb(175, 146, 146);
+    border-radius: 10px;
+    margin-top: 35px;
+    padding: 23px;
+    cursor: pointer;
+    background: rgba(214, 245, 245, 0.953);
+}
+.Divofpost{
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.Divofname{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .MainDivofDirectory {
+        display: flex;
+        gap: 37px;
+    }
+    .Divofdirectoryrow {
+        padding: 11px;
+    }
+}
